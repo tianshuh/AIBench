@@ -36,7 +36,7 @@ http://www.statmt.org/wmt13/training-parallel-commoncrawl.tgz to /tmp/t2t_datage
 http://www.statmt.org/wmt13/training-parallel-europarl-v7.tgz to /tmp/t2t_datagen/training-parallel-europarl-v7.tgz
 http://data.statmt.org/wmt17/translation-task/dev.tgz to /tmp/t2t_datagen/dev.tgz
 ```
-#### 其中前三个数据集可以在可以直接移到 `/tmp/t2t_datagen/` 中，最后一个文件移动之后，由于函数没有对已存在文件名进行判断，需要修改两个 `.py` 文件。
+#### 其中前三个数据集可以在可以直接移到 `/tmp/t2t_datagen/` 中，最后一个文件移动之后，由于函数没有对已存在文件名进行判断，需要修改两个 `.py` 函数。
 
 ```Shell
 vim /usr/local/lib/python3.6/dist-packages/tensorflow/python/lib/io/file_io.py 
