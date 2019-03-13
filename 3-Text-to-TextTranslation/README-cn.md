@@ -54,4 +54,4 @@ def rename(oldname, newname, overwrite=True):
 def rename_v2(src, dst, overwrite=True):
 ```
 ## 参考链接
-1. [https://github.com/rbgirshick/py-faster-rcnn](https://github.com/rbgirshick/py-faster-rcnn)
+1. 暂无
