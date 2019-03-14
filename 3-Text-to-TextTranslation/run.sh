@@ -1,11 +1,14 @@
 # set environment
-pip install -r requirements.txt
+pip install tensorboard
+pip install --upgrade tensorflow-gpu
+pip install --upgrade tensorflow
 # edit file
 mkdir save
 #cp /usr/local/lib/python3.6/dist-packages/tensorflow/python/lib/io/file_io.py ./save/
-cp `python3 -c "import tensorflow as tf; print(tf.__path__[0])"`/python/lib/io/file_io.py ./save/
-mv file_io.py `python3 -c "import tensorflow as tf; print(tf.__path__[0])"`/python/lib/io/
+cp `python3 -c "import tensorflow as tf; print(tf.__path__[1])"`/python/lib/io/file_io.py ./save/
+cp file_io.py `python3 -c "import tensorflow as tf; print(tf.__path__[1])"`/python/lib/io/
 # train
+pip install tensor2tensor
 t2t-trainer --registry_help
 
 PROBLEM=translate_ende_wmt32k
