@@ -1,0 +1,3 @@
+[submodule "2-ImageGeneration/lsun"]
+	path = 2-ImageGeneration/lsun
+	url = git@github.com:fyu/lsun.git

@@ -19,6 +19,9 @@ Each component benchmark is specified with a problem statement, one or more data
 **Involved data motifs:**   
 **Software stacks:**   
 **Implementation Contributors:**   
+**References**:
+1. [LSUN official webpage](https://www.yf.io/p/lsun)
+2. [Github fyu/lsun](https://github.com/fyu/lsun)
 
 ## 3. Text-to-Text Translation  
 **Workloads type:** AI   
