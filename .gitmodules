@@ -1,3 +1,6 @@
 [submodule "2-ImageGeneration/lsun"]
 	path = 2-ImageGeneration/lsun
 	url = git@github.com:fyu/lsun.git
+[submodule "11-GraphModel/lda"]
+	path = 11-GraphModel/lda
+	url = git@github.com:lda-project/lda.git
