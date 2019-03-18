@@ -1,5 +1,22 @@
 # AI Component Benchmark  
 
+## To Do List
+- <input type="checkbox" onclick="return false;"/> 1. Image classification
+- <input type="checkbox" onclick="return false;"/> 2. Image generation
+- <input type="checkbox" onclick="return false;" checked/> 3. Text-to-Text Translation
+- <input type="checkbox" onclick="return false;"/> 4. Image-to-Text
+- <input type="checkbox" onclick="return false;"/> 5. Image-to-Image
+- <input type="checkbox" onclick="return false;"/> 6. Speech-to-Text
+- <input type="checkbox" onclick="return false;"/> 7. Face embedding
+- <input type="checkbox" onclick="return false;" checked/> 8. Object detection
+- <input type="checkbox" onclick="return false;"/> 9. Recommendation
+- <input type="checkbox" onclick="return false;"/> 10. PageRank
+- <input type="checkbox" onclick="return false;" checked/> 11. Graph Model
+- <input type="checkbox" onclick="return false;"/> 12. Clustering
+- <input type="checkbox" onclick="return false;"/> 13. Classification
+- <input type="checkbox" onclick="return false;"/> 14. Feature Exaction
+- <input type="checkbox" onclick="return false;"/> 15. Search Engine Indexing
+
 Each component benchmark is specified with a problem statement, one or more dataset, algorithms, involved data motifs, implementations and their contributors.  
 
 ## 1. Image classification  
