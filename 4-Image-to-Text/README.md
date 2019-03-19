@@ -39,14 +39,15 @@ bazel-bin/im2txt/train \
 ```
 
 ## 遇到的一些问题
-> **1. 将 Python2 代码转化为 Python3。**  
+**1. 将 Python2 代码转化为 Python3。**  
 ```Shell
 2to3 -w /usr/local/lib/python3.6/dist-packages/tensorflow/models/research/im2txt 
 ```
-> **2. tf.gfile.FastGFile(filename, 'r').read() error: 'utf-8' codec can't decode byte 0xff**   
+
+**2. tf.gfile.FastGFile(filename, 'r').read() error: 'utf-8' codec can't decode byte 0xff**   
 > 修改 `research/im2txt/im2txt/data/build_mscoco_data.py` 文件，把 `tf.gfile.FastGFile(image_filename, "r")` 修改为 `tf.gfile.FastGFile(image_filename, "rb")` 
 
-> **3. tf.train.byteslist has type str but expected one of bytes**  
+**3. tf.train.byteslist has type str but expected one of bytes**  
 > 修改 `research/im2txt/im2txt/data/build_mscoco_data.py` 文件:   
 ```Python
 def _bytes_feature(value):
@@ -55,6 +56,10 @@ def _bytes_feature(value):
   # return tf.train.Feature(bytes_list=tf.train.BytesList(value=[str(value)]))
   return tf.train.Feature(bytes_list=tf.train.BytesList(value=[value]))
 ```
+
+**4. INFO:tensorflow:Error reported to Coordinator: <class 'tensorflow.python.framework.errorsimpl.DataLossError'>, truncated reco**  
+> 这种情况一般都是数据有损坏，如果是tfrecord的数据，建议重新生成，要是直接是图片数据，那就需要好好检查了。实在不行，建议用MD5做下文件校验。  
+
 
 ## 参考链接
 1. [Source Code: tensorflow/model](https://github.com/tensorflow/models/tree/master/research/im2txt)
