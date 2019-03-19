@@ -4,7 +4,7 @@
 - [ ] 1. Image classification
 - [ ] 2. Image generation
 - [x] 3. Text-to-Text Translation
-- [ ] 4. Image-to-Text
+- [x] 4. Image-to-Text
 - [ ] 5. Image-to-Image
 - [ ] 6. Speech-to-Text
 - [ ] 7. Face embedding
