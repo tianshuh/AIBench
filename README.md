@@ -1,7 +1,7 @@
 # AI Component Benchmark  
 
 ## To Do List
-- [ ] 1. Image classification
+- [x] 1. Image classification
 - [ ] 2. Image generation
 - [x] 3. Text-to-Text Translation
 - [x] 4. Image-to-Text
@@ -156,3 +156,15 @@ Each component benchmark is specified with a problem statement, one or more data
 **Involved data motifs:**   
 **Software stacks:**   
 **Implementation Contributors:**   
+
+
+
+## Others
+### Dual Learning
+### GBDT
+### Learning to Rank
+### Tranditional Machine Learning
+### Transformer
+### Social Network
+### BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding
+[paper view](https://arxiv.org/pdf/1810.04805.pdf)  
