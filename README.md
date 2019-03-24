@@ -1,17 +1,17 @@
 # AI Component Benchmark  
 
 ## To Do List
-- [x] 1. Image classification
+- [x] 1. Image classification (by xingw)
 - [ ] 2. Image generation
-- [x] 3. Text-to-Text Translation
-- [x] 4. Image-to-Text
+- [x] 3. Text-to-Text Translation (by cjn)
+- [x] 4. Image-to-Text (by xingw & cjn)
 - [ ] 5. Image-to-Image
 - [ ] 6. Speech-to-Text
 - [ ] 7. Face embedding
-- [x] 8. Object detection
-- [ ] 9. Recommendation
-- [ ] 10. PageRank
-- [x] 11. Graph Model
+- [x] 8. Object detection (by xingw)
+- [x] 9. Recommendation (by cjn)
+- [x] 10. PageRank (by cjn)
+- [x] 11. Graph Model (by xinwg)
 - [ ] 12. Clustering
 - [ ] 13. Classification
 - [ ] 14. Feature Exaction
