@@ -11,7 +11,7 @@
 - [x] 8. Object detection (by xingw)
 - [x] 9. Recommendation (by cjn)
 - [x] 10. PageRank (by cjn)
-- [x] 11. Graph Model (by xinwg)
+- [x] 11. Graph Model (by xingw)
 - [ ] 12. Clustering
 - [ ] 13. Classification
 - [ ] 14. Feature Exaction
