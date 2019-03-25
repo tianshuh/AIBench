@@ -4,3 +4,6 @@
 [submodule "11-GraphModel/lda"]
 	path = 11-GraphModel/lda
 	url = git@github.com:lda-project/lda.git
+[submodule "9-Recommendation/Probabilistic-Matrix-Factorization"]
+	path = 9-Recommendation/Probabilistic-Matrix-Factorization
+	url = git@github.com:fuhailin/Probabilistic-Matrix-Factorization.git
