@@ -4,3 +4,6 @@
 [submodule "7-FaceEmbedding/facenet"]
 	path = 7-FaceEmbedding/facenet
 	url = git@github.com:davidsandberg/facenet.git
+[submodule "9-Recommendation/Probabilistic-Matrix-Factorization"]
+	path = 9-Recommendation/Probabilistic-Matrix-Factorization
+	url = git@github.com:fuhailin/Probabilistic-Matrix-Factorization.git
