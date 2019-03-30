@@ -1,13 +1,13 @@
 # AI Component Benchmark  
 
-## To Do List
+## To Do List (8/15)
 - [x] 1. Image classification (by xingw)
-- [ ] 2. Image generation
+- [ ] 2. Image generation (in progress)
 - [x] 3. Text-to-Text Translation (by cjn)
 - [x] 4. Image-to-Text (by xingw & cjn)
-- [ ] 5. Image-to-Image
+- [ ] 5. Image-to-Image (in progress)
 - [ ] 6. Speech-to-Text
-- [ ] 7. Face embedding
+- [x] 7. Face embedding (by xingw)
 - [x] 8. Object detection (by xingw)
 - [x] 9. Recommendation (by cjn)
 - [x] 10. PageRank (by cjn)
@@ -15,7 +15,7 @@
 - [ ] 12. Clustering
 - [ ] 13. Classification
 - [ ] 14. Feature Exaction
-- [ ] 15. Search Engine Indexing
+- [ ] 15. Search Engine Indexing (in progress)
 
 Each component benchmark is specified with a problem statement, one or more dataset, algorithms, involved data motifs, implementations and their contributors.  
 
