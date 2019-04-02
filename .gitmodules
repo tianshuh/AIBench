@@ -7,3 +7,9 @@
 [submodule "9-Recommendation/Probabilistic-Matrix-Factorization"]
 	path = 9-Recommendation/Probabilistic-Matrix-Factorization
 	url = git@github.com:fuhailin/Probabilistic-Matrix-Factorization.git
+[submodule "2-ImageGeneration/WassersteinGAN"]
+	path = 2-ImageGeneration/WassersteinGAN
+	url = git@github.com:martinarjovsky/WassersteinGAN.git
+[submodule "2-ImageGeneration/lsun"]
+	path = 2-ImageGeneration/lsun
+	url = git@github.com:fyu/lsun.git
