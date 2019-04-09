@@ -13,3 +13,6 @@
 [submodule "2-ImageGeneration/lsun"]
 	path = 2-ImageGeneration/lsun
 	url = git@github.com:fyu/lsun.git
+[submodule "5-Image-to-Image/pytorch-CycleGAN"]
+	path = 5-Image-to-Image/pytorch-CycleGAN
+	url = git@github.com:junyanz/pytorch-CycleGAN-and-pix2pix.git
