@@ -16,3 +16,6 @@
 [submodule "5-Image-to-Image/pytorch-CycleGAN"]
 	path = 5-Image-to-Image/pytorch-CycleGAN
 	url = git@github.com:junyanz/pytorch-CycleGAN-and-pix2pix.git
+[submodule "3-Text-to-TextTranslation/pytorch/attention-is-all-you-need-pytorch"]
+	path = 3-Text-to-TextTranslation/pytorch/attention-is-all-you-need-pytorch
+	url = git@github.com:jadore801120/attention-is-all-you-need-pytorch.git
