@@ -1,0 +1,6 @@
+__pycache__/*
+utils/__pycache__/*
+utils/flags/__pycache__/*
+utils/logs/__pycache__/*
+utils/export/__pycache__/*
+utils/misc/__pycache__/*
