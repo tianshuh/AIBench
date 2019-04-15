@@ -25,5 +25,5 @@ bash ./datasets/download_cyclegan_dataset.sh maps
 
 ## 参考链接
 1. [CycleGAN Paper](https://arxiv.org/abs/1703.10593.pdf)
-1. [CycleGAN Project Homepage](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)
+1. [CycleGAN Project Homepage](https://junyanz.github.io/CycleGAN/)
 1. [https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)
