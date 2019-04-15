@@ -1,6 +1,6 @@
 # AI Component Benchmark
 
-**<font color="red">Please click [HERE](https://github.com/XingwXiong/AIBench/wiki) to view *"The Teamwork Development Guide"* , if you're a member of AIBench project.</font>**
+**Please click [HERE](https://github.com/XingwXiong/AIBench/wiki) to view [*"The Teamwork Development Guide"*](https://github.com/XingwXiong/AIBench/wiki) , if you're a member of AIBench project.**
 
 
 ## To Do List (10/15)
