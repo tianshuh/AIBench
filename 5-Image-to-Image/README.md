@@ -25,6 +25,5 @@ bash ./datasets/download_cyclegan_dataset.sh maps
 
 ## 参考链接
 1. [CycleGAN Paper](https://arxiv.org/abs/1703.10593.pdf)
-1. [ICCV2015 Tutorial: Training R-CNNs of various velocities](https://www.dropbox.com/s/xtr4yd4i5e0vw8g/iccv15_tutorial_training_rbg.pdf?dl=0)
 1. [CycleGAN Project Homepage](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)
 1. [https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)
