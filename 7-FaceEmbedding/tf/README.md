@@ -1,4 +1,4 @@
-# 7. 人脸识别 FaceNet
+# 7. 人脸识别 FaceNet (Tensorflow)
 
 ## 准备工作
 
