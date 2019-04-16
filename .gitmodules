@@ -7,9 +7,6 @@
 [submodule "9-Recommendation/Probabilistic-Matrix-Factorization"]
 	path = 9-Recommendation/Probabilistic-Matrix-Factorization
 	url = git@github.com:fuhailin/Probabilistic-Matrix-Factorization.git
-[submodule "2-ImageGeneration/WassersteinGAN"]
-	path = 2-ImageGeneration/WassersteinGAN
-	url = git@github.com:martinarjovsky/WassersteinGAN.git
 [submodule "2-ImageGeneration/lsun"]
 	path = 2-ImageGeneration/lsun
 	url = git@github.com:fyu/lsun.git
@@ -19,3 +16,6 @@
 [submodule "3-Text-to-TextTranslation/pytorch/attention-is-all-you-need-pytorch"]
 	path = 3-Text-to-TextTranslation/pytorch/attention-is-all-you-need-pytorch
 	url = git@github.com:jadore801120/attention-is-all-you-need-pytorch.git
+[submodule "2-ImageGeneration/pytorch/WGAN"]
+	path = 2-ImageGeneration/pytorch/WGAN
+	url = git@github.com:martinarjovsky/WassersteinGAN.git
