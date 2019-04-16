@@ -1,8 +1,8 @@
 [submodule "11-GraphModel/lda"]
 	path = 11-GraphModel/lda
 	url = git@github.com:lda-project/lda.git
-[submodule "7-FaceEmbedding/facenet"]
-	path = 7-FaceEmbedding/facenet
+[submodule "7-FaceEmbedding/tf/facenet"]
+	path = 7-FaceEmbedding/tf/facenet
 	url = git@github.com:davidsandberg/facenet.git
 [submodule "9-Recommendation/Probabilistic-Matrix-Factorization"]
 	path = 9-Recommendation/Probabilistic-Matrix-Factorization
@@ -10,12 +10,12 @@
 [submodule "2-ImageGeneration/lsun"]
 	path = 2-ImageGeneration/lsun
 	url = git@github.com:fyu/lsun.git
-[submodule "5-Image-to-Image/pytorch-CycleGAN"]
-	path = 5-Image-to-Image/pytorch-CycleGAN
-	url = git@github.com:junyanz/pytorch-CycleGAN-and-pix2pix.git
 [submodule "3-Text-to-TextTranslation/pytorch/attention-is-all-you-need-pytorch"]
 	path = 3-Text-to-TextTranslation/pytorch/attention-is-all-you-need-pytorch
 	url = git@github.com:jadore801120/attention-is-all-you-need-pytorch.git
 [submodule "2-ImageGeneration/pytorch/WGAN"]
 	path = 2-ImageGeneration/pytorch/WGAN
 	url = git@github.com:martinarjovsky/WassersteinGAN.git
+[submodule "5-Image-to-Image/pytorch/CycleGAN"]
+	path = 5-Image-to-Image/pytorch/CycleGAN
+	url = git@github.com:junyanz/pytorch-CycleGAN-and-pix2pix.git
