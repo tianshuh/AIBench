@@ -1,4 +1,4 @@
-# 8. 目标检测 Faster R-CNN
+# 8. 目标检测 Faster R-CNN (caffe)
 
 ## 声明
 
