@@ -4,32 +4,32 @@
 
 
 ## To Do List (10/15)
-- [x] 1. Image classification (by xingw)
-- [x] 2. Image generation (by xingw)
-- [x] 3. Text-to-Text Translation (by cjn)
-- [x] 4. Image-to-Text (by xingw & cjn)
-- [x] 5. Image-to-Image (by xingw)
-- [ ] 6. Speech-to-Text
-- [x] 7. Face embedding (by xingw)
-- [x] 8. Object detection (by xingw)
-- [x] 9. Recommendation (by cjn)
-- [x] 10. PageRank (by cjn)
-- [x] 11. Graph Model (by xingw)
-- [ ] 12. Clustering
-- [ ] 13. Classification
-- [ ] 14. Feature Exaction (in progress)
-- [ ] 15. Search Engine Indexing (in progress)
+- [x] 1. **Image classification**: by xingw (keras), jzh (tf)
+- [x] 2. **Image generation**: by xingw (pytorch)
+- [x] 3. **Text-to-Text Translation**: by cjn (tf), wx (pytorch)
+- [x] 4. **Image-to-Text**: by xingw & cjn (tf)
+- [x] 5. **Image-to-Image**: by xingw (pytorch)
+- [ ] 6. **Speech-to-Text** 
+- [x] 7. **Face embedding**: by xingw (tf)
+- [x] 8. **Object detection**: by dmj (tf), xingw (pytorch, caffe)
+- [x] 9. **Recommendation**:  by cjn (Probabilistic MF)
+- [x] 10. **PageRank**:  by cjn (snap)
+- [x] 11. **Graph Model**: by xingw (gensim)
+- [ ] 12. **Clustering**
+- [ ] 13. **Classification**
+- [ ] 14. **Feature Exaction**
+- [ ] 15. **Search Engine Indexing**
 
 |  #   |          Name          |                          Algorithm                           |                           Dataset                            |     Tensorflow     |      PyTorch       |
 | :--: | :--------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------: | :----------------: |
-|  1   |  Image Classification  |    [ResNet20/ResNet32](https://arxiv.org/abs/1512.03385)     |   [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html)    |       :x:       |        :x:         |
+|  1   |  Image Classification  |    [ResNet20/ResNet32](https://arxiv.org/abs/1512.03385)     |   [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html)    | :heavy_check_mark: |        :x:         |
 |  2   |    Image Generation    |      [WassersteinGAN](https://arxiv.org/abs/1701.07875)      |               [LSUN](https://www.yf.io/p/lsun)               |        :x:         | :heavy_check_mark: |
-|  3   |       Text2Text        |        [Attention](https://arxiv.org/abs/1706.03762)         | [WMT English-German](https://nlp.stanford.edu/projects/nmt)  | :heavy_check_mark: |                :x:         |
+|  3   |       Text2Text        |        [Attention](https://arxiv.org/abs/1706.03762)         | [WMT English-German](https://nlp.stanford.edu/projects/nmt)  | :heavy_check_mark: | :heavy_check_mark: |
 |  4   |       Image2Text       |     [InceptionV3+LSTM](https://arxiv.org/abs/1411.4555)      |            [MS COCO2014](http://cocodataset.org/)            | :heavy_check_mark: |        :x:         |
 |  5   |      Image2Image       |         [CycleGAN](https://arxiv.org/abs/1703.10593)         |       [Cityscapes](https://www.cityscapes-dataset.com)       |        :x:         | :heavy_check_mark: |
 |  6   |      Speech2Text       |      [Deep Speech 2](https://arxiv.org/abs/1512.02595)       |          [LibriSpeech](http://www.openslr.org/12/)           |        :x:         |        :x:         |
 |  7   |     Face Embedding     |         [facenet](https://arxiv.org/abs/1503.03832)          | [CASIA-WebFace](https://drive.google.com/file/d/1Of_EVz-yHV7QVWQGihYfvtny9Ne8qXVz/view)/[VGGFace2](http://www.robots.ox.ac.uk/~vgg/data/vgg_face2) | :heavy_check_mark: |        :x:         |
-|  8   |    Object Detection    |       [Faster R-CNN](https://arxiv.org/abs/1506.01497)       | [Pascal VOC2007](http://host.robots.ox.ac.uk/pascal/VOC/voc2007/)/[MS COCO2014](http://cocodataset.org/) |        :x:         | :heavy_check_mark: |
+|  8   |    Object Detection    |       [Faster R-CNN](https://arxiv.org/abs/1506.01497)       | [Pascal VOC2007](http://host.robots.ox.ac.uk/pascal/VOC/voc2007/)/[MS COCO2014](http://cocodataset.org/) | :heavy_check_mark: | :heavy_check_mark: |
 |  9   |     Recommendation     | [Probabilistic MF](https://datajobs.com/data-science-repo/Recommender-Systems-[Netflix].pdf) | [MovieLens ml-100k](https://grouplens.org/datasets/movielens/100k/)/[GroupLens](https://grouplens.org/datasets) | :heavy_minus_sign: | :heavy_minus_sign: |
 |  10  |        PageRank        | [PageRank](http://ilpubs.stanford.edu:8090/422/1/1999-66.pdf) | [Google Web Graph](http://snap.stanford.edu/data/web-Google.html) | :heavy_minus_sign: | :heavy_minus_sign: |
 |  11  |      Graph Model       |      [LDA](http://www.jmlr.org/papers/v3/blei03a.html)       |  [Wikipedia English articles](https://dumps.wikimedia.org/)  | :heavy_minus_sign: | :heavy_minus_sign: |
