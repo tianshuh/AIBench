@@ -19,3 +19,7 @@
 [submodule "5-Image-to-Image/pytorch/CycleGAN"]
 	path = 5-Image-to-Image/pytorch/CycleGAN
 	url = git@github.com:junyanz/pytorch-CycleGAN-and-pix2pix.git
+[submodule "8-ObjectDetection/pytorch/faster-rcnn.pytorch"]
+	path = 8-ObjectDetection/pytorch/faster-rcnn.pytorch
+	url = git@github.com:jwyang/faster-rcnn.pytorch.git
+	branch = pytorch-1.0
