@@ -15,7 +15,7 @@ arr=("ae_photos" "apple2orange" "summer2winter_yosemite"  "horse2zebra" \
     "cityscapes" "facades" "iphone2dslr_flower" "mini" "mini_pix2pix" \
     "mini_colorization")
 # Download a CycleGAN dataset (e.g. maps):
-bash ./datasets/download_cyclegan_dataset.sh maps
+bash ./datasets/download_cyclegan_dataset.sh cityscapes
 
 ```
 
