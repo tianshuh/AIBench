@@ -23,3 +23,6 @@
 	path = 8-ObjectDetection/pytorch/faster-rcnn.pytorch
 	url = git@github.com:jwyang/faster-rcnn.pytorch.git
 	branch = pytorch-1.0
+[submodule "7-FaceEmbedding/pytorch/facenet"]
+	path = 7-FaceEmbedding/pytorch/facenet
+	url = git@github.com:tbmoon/facenet.git
