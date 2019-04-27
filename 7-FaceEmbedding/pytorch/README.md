@@ -7,10 +7,10 @@
 
 ### 图像裁剪
 
-`PyTorch` 对图像尺寸要求比较严格，请将 `/scripts/face-align-CASIA-Webface.sh` 中的参数  
+`PyTorch` 对图像尺寸要求比较严格，如果**需要**请将 `/scripts/face-align-CASIA-Webface.sh` 中的参数  
 `--image_size 182`
 改为  
-`--image_size 224`
+`--image_size xxx`
 重新运行剪裁图像。
 ```Shell
 cd ${facenet}
@@ -37,17 +37,15 @@ elif which_dataset == 2:
 else:
     root_dir = "/run/media/hoosiki/WareHouse2/home/mtb/datasets/my_pictures/my_pictures_mtcnnpy_182"
 ```
-修改并运行四次文件 `datasets/write_csv_for_making_dataset.py` ，生成四个csv文件。
-```Shell
-python datasets/write_csv_for_making_dataset.py
-```
+修改并运行四次文件 `datasets/write_csv_for_making_dataset.ipynb` ，生成四个csv文件。
+
 
 ### 训练 & 验证
 
 运行脚本
 ```Shell
 cd ${facenet}
-./run.sh
+python train.py
 ```
 
 ## 参考链接
