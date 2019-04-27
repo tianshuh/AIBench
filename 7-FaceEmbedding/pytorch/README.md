@@ -23,7 +23,7 @@ cd ${facenet}
 
 ### 生成csv文件
 
-重写文件 `datasets/write_csv_for_making_dataset.py` ，你需要更改参数 `which_dataset` 以及文件路径 `root_dir` 。
+重写文件 `datasets/write_csv_for_making_dataset.ipynb` ，你需要更改参数 `which_dataset` 以及文件路径 `root_dir` 。
 ```Python
 which_dataset = 1
 ```
