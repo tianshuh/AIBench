@@ -26,3 +26,6 @@
 [submodule "7-FaceEmbedding/pytorch/facenet"]
 	path = 7-FaceEmbedding/pytorch/facenet
 	url = git@github.com:tbmoon/facenet.git
+[submodule "6-Speech-to-Text/tf"]
+	path = 6-Speech-to-Text/tf
+	url = https://github.com/tianshuh/Speech-To-Text
